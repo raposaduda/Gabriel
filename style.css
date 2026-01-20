@@ -1,24 +1,29 @@
+/* Estilo geral da página */
 body{
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background 0.3s;
+    margin: 0; /* Remove a margem padrão do navegador */
+    height: 100vh; /* Faz o body ocupar toda a altura da tela */
+    display: flex; /* Usa flexbox para layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
+    transition: background 0.3s; /* Anima a troca de fundo */
 }
 
+/* Tema escuro */
 body.dark-theme{
-    background: #0000;
-    color: #0F0;
+    background: #000000; /* Fundo preto */
+    color: #00ff00; /* Texto verde */
 }
 
+/* Tema claro */
 body.light-theme{
-    background: #0f0;
-    color: #0000;
+    background: #00ff00; /* Fundo verde */
+    color: #000000; /* Texto preto */
 }
 
+/* Estilo do botão */
 .btn{
-    padding: 12px 20px;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 12px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
 }
