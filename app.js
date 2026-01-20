@@ -1,4 +1,4 @@
-'use strict'; 
+'use strict';
 // Seleciona o botão que tem a classe "btn"
 const btn = document.querySelector('.btn');
 
